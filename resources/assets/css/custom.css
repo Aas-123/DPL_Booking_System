@@ -1,0 +1,178 @@
+/* Custom css of project */
+
+ /* index page  */
+nav
+{
+	width: 100%;
+	background-color: olivedrab;
+	position: fixed;
+	display: block;
+	
+}
+
+ul
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+ul li
+{
+	list-style:none ;
+	display: inline-block;
+	padding: 20px;
+}
+
+ul li:hover
+{
+
+	background-color: #000;
+	margin-top: -3px;
+	
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+ul li a:hover
+{
+	color: #fff;
+	text-decoration:none; 
+}
+
+
+
+.toggle
+{
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #ccc;
+	text-align: right;
+	box-sizing: border-box;
+	font-size:30px;
+	display: none;
+	
+}
+
+.logo
+{
+	width: 40%;
+	height:10vh;
+	text-align:left !important;
+}
+
+.message
+{
+	width: 30%;
+	height: 30%;
+	position: absolute;
+	margin-top: -30%;
+	background: rgba(242, 242, 242, 0.5);
+}
+
+.btn1
+{
+	margin-top:20px;
+	width: 30%;
+	height: 25%;
+	margin-left:10%;
+}
+
+.btn1:hover
+{
+	background-color: green !important;
+	color: white !important;
+}
+
+
+/* login & SignUp pages */
+
+.box1
+{
+	width: 70%;
+	height: 40%;
+	background: rgba(242, 242, 242, 0.5);
+}
+
+.box2
+{
+	width: 70%;
+	height: 50%;
+	background: rgba(242, 242, 242, 0.5);
+}
+
+
+/* media querys */
+
+
+@media (max-width:768px)
+{
+	.toggle
+	{
+		display: block;
+	}
+
+	ul
+	{
+		width: 100%;
+		display:none;
+		overflow: hidden;
+
+	}
+
+	ul li
+	{
+		display: block;
+		text-align: center;
+	}
+
+	ul li:hover
+	{
+		
+		color: #fff;
+		width: 100%;
+		
+	}
+	.active
+	{
+		display: block;
+
+
+	}
+	.full_logo
+	{
+		display: none;
+	}
+
+	.message h1
+	{
+		font-size: 100%;
+	}
+
+	.message
+	{
+		margin-left: -160px;
+	}
+
+	.box1
+	{
+		margin-top:-15%;
+		height: 55%;
+	}
+
+	.box2
+	{
+		margin-top:-15%;
+		height: 70%;
+	}
+
+	
+
+}
+
+

@@ -1,0 +1,11 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/resources/assets/js/jquery.js": "/resources/assets/js/jquery.js",
+    "/resources/assets/js/bootstrap.js": "/resources/assets/js/bootstrap.js",
+    "/resources/assets/js/sweetalert.min.js": "/resources/assets/js/sweetalert.min.js",
+    "/css/all.css": "/css/all.css",
+    "/js/all.js": "/js/all.js",
+    "/css/admin.css": "/css/admin.css",
+    "/js/admin.js": "/js/admin.js"
+}
